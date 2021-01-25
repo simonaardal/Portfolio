@@ -16,17 +16,17 @@
         </div>
         <nav class="main-navbar">
             <ul class="main-navbar__contents">
-                <li class="main-navbar__content current"><a href="index.html">PROJECTS</a></li>
-                <li class="main-navbar__content"><a href="cv.html">CV</a></li>
+                <li><div class="button" id="btnProjects">Projects</div></li>
+                <li><div class="button" id="btnCV">CV</div></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="projects__container">
+        <div id="pdf--container">
+            <img class="pdf" src="res/CV2.jpg"/>
+        </div>
+        <div id="projects__container">
             <div class="project__container" id="project1">
-                <div class="project__information">
-                    <h3>Crypto Calculator</h3>
-                </div>
                 <div class="project__foreground">
                     <img src="res/arrow_up_transparent.png"/>
                     <div class="project__foreground__content">
@@ -55,14 +55,7 @@
                 </div>
                 <img src="res/cc.png" alt="project 1" class="project__image"/>
             </div>
-
-
-
-
             <div class="project__container" id="project2">
-                <div class="project__information">
-                    <h3>QML Client / Qt server app (under development)</h3>
-                </div>
                 <div class="project__foreground">
                     <img src="res/arrow_up_transparent.png"/>
                     <div class="project__foreground__content">
@@ -90,23 +83,13 @@
                 </div>
                 <img src="res/qml2.png" alt="project 1" class="project__image"/>
             </div>
-
-
-
-
-
-
-
-
             <div class="project__container" id="project3">
-                <div class="project__information">
-                    <h3>Portfolio</h3>
-                </div>
                 <div class="project__foreground">
                     <img src="res/arrow_up_transparent.png"/>
                     <div class="project__foreground__content">
                         <h1 class="information__title">Portfolio</h1>
-                        <p>The portfolio you're currently reading.</p>
+                        <p>This portfolio you're currently reading. Made from scratch in HTML and CSS without
+                            framworks.</p>
                         <div class="project__foreground__content__labels">
                             <div class="project__foreground__content__label">
                                 <img class="label" src="res/label.png"/>
@@ -118,24 +101,24 @@
                             </div>
 
                         </div>
+                        <a href="https://github.com/simonaardal/Portfolio" target="_blank">
                         <div class="project__foreground__content__gitbtn">
                             <img src="res/github.png" class="github--img"/>
                             GitHub
                         </div>
+                        </a>
                     </div>
                 </div>
                 <img src="res/portfolio.png" alt="project 1" class="project__image"/>
             </div>
 
             <div class="project__container" id="project4">
-                <div class="project__information">
-                    <h3>AiSL (Artificial Intelligece Sign Language</h3>
-                </div>
                 <div class="project__foreground">
                     <img src="res/arrow_up_transparent.png"/>
                     <div class="project__foreground__content">
                         <h1 class="information__title">AiSL</h1>
-                        <p></p>
+                        <p>AiSL is a client-server distributed system using AI with deep learning (CNN-algorithm) to translate sign language
+                            from realtime video.</p>
                         <div class="project__foreground__content__labels">
                             <div class="project__foreground__content__label">
                                 <img class="label" src="res/label.png"/>
@@ -159,27 +142,27 @@
                             </div>
                             <div class="project__foreground__content__label">
                                 <img class="label" src="res/label.png"/>
-                                Shellscript
+                                Shell
                             </div>
                         </div>
+                        <a href="https://github.com/simonaardal/AiSL" target="_blank">
                         <div class="project__foreground__content__gitbtn">
                             <img src="res/github.png" class="github--img"/>
                             GitHub
                         </div>
+                        </a>
                     </div>
                 </div>
                 <img src="res/aisl.png" alt="project 1" class="project__image"/>
             </div>
-
             <div class="project__container" id="project5">
-                <div class="project__information">
-                    <h3>Harmoni</h3>
-                </div>
                 <div class="project__foreground">
                     <img src="res/arrow_up_transparent.png"/>
                     <div class="project__foreground__content">
                         <h1 class="information__title">Harmoni</h1>
-                        <p>Scrum project.</p>
+                        <p>Graded group project done by using the agile Scrum-methodology in conjunction with the
+                            subject TDAT2003 Software Engineering 2 with web applications at NTNU.
+                            Harmoni is a web-application used to organize and plan events.</p>
                         <div class="project__foreground__content__labels">
                             <div class="project__foreground__content__label">
                                 <img class="label" src="res/label.png"/>
@@ -198,10 +181,12 @@
                                 JavaScript
                             </div>
                         </div>
+                        <a href="https://github.com/simonaardal/Harmoni" target="_blank">
                         <div class="project__foreground__content__gitbtn">
                             <img src="res/github.png" class="github--img"/>
                             GitHub
                         </div>
+                        </a>
                     </div>
                 </div>
                 <img src="res/harmoni.png" alt="project 1" class="project__image"/>
@@ -209,16 +194,73 @@
 
 
             <div class="project__container" id="project6">
-
-                <div class="project__information">
-                    <h3>Two Phase Commit</h3>
-                </div>
                 <div class="project__foreground">
                     <img src="res/arrow_up_transparent.png"/>
                     <div class="project__foreground__content">
                         <h1 class="information__title">Two Phase Commit</h1>
-                        <p> Two Phase Commit is an illustration of the two-phase-commit protocol developed in Java.
-                            The project was made in the subject TDAT2004 Data Communications and Network Programming.</p>
+                        <p> An illustration of the two-phase-commit protocol developed in Java.
+                            The project was made in conjunction with the subject
+                            TDAT2004 Data Communications and Network Programming at NTNU.</p>
+                        <div class="project__foreground__content__labels">
+                            <div class="project__foreground__content__label">
+                                <img class="label" src="res/label.png"/>
+                                Java
+                            </div>
+                        </div>
+                        <a href="https://github.com/simonaardal/Two-Phase-Commit" target="_blank">
+                        <div class="project__foreground__content__gitbtn">
+                            <img src="res/github.png" class="github--img"/>
+                            GitHub
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <img src="res/two_phase.png" alt="project 2 - Two Phase" class="project__image"/>
+            </div>
+            <div class="project__container" id="project7">
+                <div class="project__foreground">
+                    <img src="res/arrow_up_transparent.png"/>
+                    <div class="project__foreground__content">
+                        <h1 class="information__title">Reliable News</h1>
+                        <p> Fullstack dynamic news-site developed as a graded project in conjunction with the
+                            subject TDAT2003 Software Engineering 2 with web applications at NTNU, using Node.js in
+                            backend and React in frontend.</p>
+                        <div class="project__foreground__content__labels">
+                            <div class="project__foreground__content__label">
+                                <img class="label" src="res/label.png"/>
+                                React
+                            </div>
+                            <div class="project__foreground__content__label">
+                                <img class="label" src="res/label.png"/>
+                                Node.js
+                            </div>
+                            <div class="project__foreground__content__label">
+                                <img class="label" src="res/label.png"/>
+                                CSS
+                            </div>
+                            <div class="project__foreground__content__label">
+                                <img class="label" src="res/label.png"/>
+                                JavaScript
+                            </div>
+                        </div>
+                        <a href="https://github.com/simonaardal/Reliable-News" target="_blank">
+                            <div class="project__foreground__content__gitbtn">
+                                <img src="res/github.png" class="github--img"/>
+                                GitHub
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <img src="res/rn.png" alt="project 1" class="project__image"/>
+            </div>
+            <div class="project__container" id="project8">
+                <div class="project__foreground">
+                    <img src="res/arrow_up_transparent.png"/>
+                    <div class="project__foreground__content">
+                        <h1 class="information__title">Squiggle</h1>
+                        <p>Squiggle is a multiplayer game implemented in Java, with JavaFX in frontend connected to a
+                            MySQL database. Created in conjunction with TDAT1006 Software Engineering 1 with Database
+                            Project at NTNU.</p>
                         <div class="project__foreground__content__labels">
                             <div class="project__foreground__content__label">
                                 <img class="label" src="res/label.png"/>
@@ -226,33 +268,20 @@
                             </div>
                             <div class="project__foreground__content__label">
                                 <img class="label" src="res/label.png"/>
-                                Networking
+                                Java FX
                             </div>
-
+                            <div class="project__foreground__content__label">
+                                <img class="label" src="res/label.png"/>
+                                MySQL
+                            </div>
                         </div>
-                        <div class="project__foreground__content__gitbtn">
-                            <img src="res/github.png" class="github--img"/>
-                            GitHub
-                        </div>
+                        <a href="https://github.com/simonaardal/Squiggle" target="_blank">
+                            <div class="project__foreground__content__gitbtn">
+                                <img src="res/github.png" class="github--img"/>
+                                GitHub
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <img src="res/two_phase.png" alt="project 2 - Two Phase" class="project__image"/>
-            </div>
-            <div class="project__container" id="project7">
-                <div class="project__information">
-                    <h3>Reliable News</h3>
-                </div>
-                <div class="project__foreground">
-                    <img src="res/arrow_up_transparent.png"/>
-                </div>
-                <img src="res/rn.png" alt="project 1" class="project__image"/>
-            </div>
-            <div class="project__container" id="project8">
-                <div class="project__information">
-                    <h3>Sqribble</h3>
-                </div>
-                <div class="project__foreground">
-                    <img src="res/arrow_up_transparent.png"/>
                 </div>
                 <img src="res/sqribble.png" alt="project 1" class="project__image"/>
             </div>
