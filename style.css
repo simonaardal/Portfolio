@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 html{
@@ -9,6 +14,7 @@ html{
 body{
     width: 100%;
     margin: 0;
+    font-family: 'Amatic SC', cursive;
 }
 
 .filler {
@@ -46,7 +52,7 @@ body{
 .main-title{
     text-decoration: none;
     font-size: 48pt;
-    font-family: "Bodoni MT", sans-serif;
+    font-family: 'Amatic SC', cursive;
     color: black;
 }
 
@@ -61,13 +67,13 @@ body{
     margin-left: 20px;
     transition: border-bottom-color 300ms ease-in;
     font-weight: bold;
-    font-family: "Bodoni MT", sans-serif;
+    font-family: 'Lora', serif;
     letter-spacing: 3px;
 }
 
 .button{
     padding: 5px;
-    font-family: "Bodoni MT", sans-serif;
+    /* font-family: "Bodoni MT", sans-serif; */
     font-size: 1.5rem;
     font-weight: lighter;
 }
@@ -97,6 +103,7 @@ body{
     overflow: hidden;
     margin-bottom: 40px;
     width: 450px;
+    min-width: 450px;
     height: 250px;
     border-radius: 5px;
     box-shadow: -21px 20px 64px -31px rgba(0,0,0,0.75);
@@ -138,8 +145,8 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 30px 20px;
-    font-family: "Trebuchet MS", serif;
-    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9rem;
     overflow-y: scroll;
     transition: opacity 1s ease-in;
 }
@@ -217,9 +224,8 @@ body{
     display: none;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 70vh;
-    margin: 170px auto;
+    width: 35%;
+    margin: auto auto 170px auto;
     box-shadow: -21px 20px 64px -31px rgba(0,0,0,0.75);
 }
 
@@ -230,8 +236,15 @@ body{
 .hidden{
     display:none;
 }
+@media only screen and (max-width: 1000px) {
+    #pdf--container {
+        width: 50%;
+    }
+}
 
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 650px) {
+    #pdf--container {
+        width: 100%;
+    }
 }
 
